@@ -1,0 +1,49 @@
+.Addtocart{
+    border: 2px solid black;
+    width: 45%;
+    display: flex;
+    background-color: silver;
+}
+.cart-middle{
+   
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    background-color: darkgrey  ;
+    position: relative;
+    top: 93px;
+}
+.addimage{
+    height: 150px;
+    width: 150px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+.cart-description{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 20px;
+    gap: 1em;
+}
+.Add-title{
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bbtn{
+    background-color: blue;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.bbtn1{
+    background-color: red;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
